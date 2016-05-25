@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/devl/projnav/sega_jojstic_driver_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="sega_jojstic_driver_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/sega_jojstic_driver_tb/data_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/clk_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/rst_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst_in</obj_property>
+      <obj_property name="ObjectShortName">rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/mux_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_o</obj_property>
+      <obj_property name="ObjectShortName">mux_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/sel_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_o</obj_property>
+      <obj_property name="ObjectShortName">sel_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/joy_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">joy_o[23:0]</obj_property>
+      <obj_property name="ObjectShortName">joy_o[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/clk_i_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_i_period</obj_property>
+      <obj_property name="ObjectShortName">clk_i_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/uut/mux_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mux_s</obj_property>
+      <obj_property name="ObjectShortName">mux_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/uut/sel_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sel_s</obj_property>
+      <obj_property name="ObjectShortName">sel_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/uut/joy_reg1/o_q" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_q[5:0]</obj_property>
+      <obj_property name="label">reg1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/uut/joy_reg2/o_q" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_q[5:0]</obj_property>
+      <obj_property name="label">reg2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/uut/joy_reg3/o_q" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_q[5:0]</obj_property>
+      <obj_property name="label">reg3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sega_jojstic_driver_tb/uut/joy_reg4/o_q" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">o_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">o_q[5:0]</obj_property>
+      <obj_property name="label">reg4</obj_property>
+   </wvobject>
+</wave_config>

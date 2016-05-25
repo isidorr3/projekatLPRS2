@@ -26,7 +26,9 @@
  PORT battle_city_periph_0_red_o_pin = battle_city_periph_0_red_o, DIR = O, VEC = [7:0]
  PORT battle_city_periph_0_green_o_pin = battle_city_periph_0_green_o, DIR = O, VEC = [7:0]
  PORT battle_city_periph_0_blue_o_pin = battle_city_periph_0_blue_o, DIR = O, VEC = [7:0]
- PORT io_periph_GPIO_IO_I_pin = net_io_periph_GPIO_IO_I_pin, DIR = I, VEC = [4:0]
+ PORT my_peripheral_sega_0_data_i_pin = my_peripheral_sega_0_data_i, DIR = I, VEC = [5:0]
+ PORT my_peripheral_sega_0_mux_o_pin = my_peripheral_sega_0_mux_o, DIR = O
+ PORT my_peripheral_sega_0_sel_o_pin = my_peripheral_sega_0_sel_o, DIR = O
 
 
 BEGIN proc_sys_reset
@@ -161,11 +163,22 @@ END
 BEGIN axi_gpio
  PARAMETER INSTANCE = io_periph
  PARAMETER HW_VER = 1.01.b
+ PARAMETER C_GPIO_WIDTH = 5
  PARAMETER C_BASEADDR = 0x40000000
  PARAMETER C_HIGHADDR = 0x4000ffff
- PARAMETER C_GPIO_WIDTH = 5
  BUS_INTERFACE S_AXI = axi4lite_0
  PORT S_AXI_ACLK = clk_100_0000MHz
- PORT GPIO_IO_I = net_io_periph_GPIO_IO_I_pin
+END
+
+BEGIN my_peripheral_sega
+ PARAMETER INSTANCE = my_peripheral_sega_0
+ PARAMETER HW_VER = 1.00.a
+ PARAMETER C_BASEADDR = 0x7b200000
+ PARAMETER C_HIGHADDR = 0x7b20ffff
+ BUS_INTERFACE S_AXI = axi4lite_0
+ PORT S_AXI_ACLK = clk_100_0000MHz
+ PORT data_i = my_peripheral_sega_0_data_i
+ PORT mux_o = my_peripheral_sega_0_mux_o
+ PORT sel_o = my_peripheral_sega_0_sel_o
 END
 

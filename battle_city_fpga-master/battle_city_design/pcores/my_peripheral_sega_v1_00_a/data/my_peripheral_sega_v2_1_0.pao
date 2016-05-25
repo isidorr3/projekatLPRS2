@@ -1,0 +1,12 @@
+##############################################################################
+## Filename:          C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/data/my_peripheral_sega_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Wed May 11 19:02:20 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib my_peripheral_sega_v1_00_a user_logic vhdl
+lib my_peripheral_sega_v1_00_a reg vhdl
+lib my_peripheral_sega_v1_00_a sega_joystic_driver vhdl
+lib my_peripheral_sega_v1_00_a my_peripheral_sega vhdl

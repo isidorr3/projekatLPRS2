@@ -1,0 +1,10 @@
+-batch 
+-create my_peripheral_sega 
+-ver 1.00.a 
+-dir "C:\materija\ra115\battle_city_fpga-master\battle_city_design" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 32 
+-xps 
+-ise 
+-driver 
