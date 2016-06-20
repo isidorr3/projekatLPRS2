@@ -17,22 +17,22 @@
   <files>
     <file xil_pn:name="../../hdl/vhdl/my_peripheral_sega.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="12"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="my_peripheral_sega_v1_00_a"/>
     </file>
     <file xil_pn:name="../../hdl/vhdl/user_logic.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="11"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
       <library xil_pn:name="my_peripheral_sega_v1_00_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/proc_common_pkg.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
       <library xil_pn:name="proc_common_v3_00_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/ipif_pkg.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="proc_common_v3_00_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/or_muxcy.vhd" xil_pn:type="FILE_VHDL">
@@ -47,32 +47,32 @@
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/family_support.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="proc_common_v3_00_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="proc_common_v3_00_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/counter_f.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="proc_common_v3_00_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/address_decoder.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="6"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="axi_lite_ipif_v1_01_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="8"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="axi_lite_ipif_v1_01_a"/>
     </file>
     <file xil_pn:name="C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="10"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
       <library xil_pn:name="axi_lite_ipif_v1_01_a"/>
     </file>
     <file xil_pn:name="sega_jojstic_driver_tb.vhd" xil_pn:type="FILE_VHDL">
@@ -83,11 +83,11 @@
     </file>
     <file xil_pn:name="../../hdl/vhdl/reg.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="7"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
     <file xil_pn:name="../../hdl/vhdl/sega_joystic_driver.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="9"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
   </files>
 
@@ -103,7 +103,7 @@
     <property xil_pn:name="Analysis Effort Level" xil_pn:value="Standard" xil_pn:valueState="default"/>
     <property xil_pn:name="Asynchronous To Synchronous" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Auto Implementation Compile Order" xil_pn:value="true" xil_pn:valueState="default"/>
-    <property xil_pn:name="Auto Implementation Top" xil_pn:value="true" xil_pn:valueState="default"/>
+    <property xil_pn:name="Auto Implementation Top" xil_pn:value="false" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Automatic BRAM Packing" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Automatically Insert glbl Module in the Netlist" xil_pn:value="true" xil_pn:valueState="default"/>
     <property xil_pn:name="Automatically Run Generate Target PROM/ACE File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -205,9 +205,9 @@
     <property xil_pn:name="ISim UUT Instance Name" xil_pn:value="UUT" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|my_peripheral_sega|IMP" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="../../hdl/vhdl/my_peripheral_sega.vhd" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/my_peripheral_sega" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top" xil_pn:value="Architecture|user_logic|IMP" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="../../hdl/vhdl/user_logic.vhd" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/my_peripheral_sega/USER_LOGIC_I" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include UNISIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
@@ -270,7 +270,7 @@
     <property xil_pn:name="Other XPWR Command Line Options" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Other XST Command Line Options" xil_pn:value="" xil_pn:valueState="default"/>
     <property xil_pn:name="Output Extended Identifiers" xil_pn:value="false" xil_pn:valueState="default"/>
-    <property xil_pn:name="Output File Name" xil_pn:value="my_peripheral_sega" xil_pn:valueState="default"/>
+    <property xil_pn:name="Output File Name" xil_pn:value="user_logic" xil_pn:valueState="default"/>
     <property xil_pn:name="Overwrite Compiled Libraries" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Pack I/O Registers into IOBs" xil_pn:value="Auto" xil_pn:valueState="default"/>
     <property xil_pn:name="Pack I/O Registers/Latches into IOBs" xil_pn:value="Off" xil_pn:valueState="default"/>
@@ -283,10 +283,10 @@
     <property xil_pn:name="Placer Effort Level Map" xil_pn:value="High" xil_pn:valueState="default"/>
     <property xil_pn:name="Placer Extra Effort Map" xil_pn:value="None" xil_pn:valueState="default"/>
     <property xil_pn:name="Port to be used" xil_pn:value="Auto - default" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Map Simulation Model Name" xil_pn:value="my_peripheral_sega_map.v" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Place &amp; Route Simulation Model Name" xil_pn:value="my_peripheral_sega_timesim.v" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Synthesis Simulation Model Name" xil_pn:value="my_peripheral_sega_synthesis.v" xil_pn:valueState="default"/>
-    <property xil_pn:name="Post Translate Simulation Model Name" xil_pn:value="my_peripheral_sega_translate.v" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Map Simulation Model Name" xil_pn:value="user_logic_map.v" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Place &amp; Route Simulation Model Name" xil_pn:value="user_logic_timesim.v" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Synthesis Simulation Model Name" xil_pn:value="user_logic_synthesis.v" xil_pn:valueState="default"/>
+    <property xil_pn:name="Post Translate Simulation Model Name" xil_pn:value="user_logic_translate.v" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Map spartan6" xil_pn:value="Off" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Power Reduction Xst" xil_pn:value="false" xil_pn:valueState="default"/>

@@ -1850,8 +1850,8 @@ architecture STRUCTURE of battle_city is
   signal microblaze_0_ilmb_Sl_UE : std_logic_vector(0 to 0);
   signal microblaze_0_ilmb_Sl_Wait : std_logic_vector(0 to 0);
   signal my_peripheral_sega_0_data_i : std_logic_vector(5 downto 0);
-  signal my_peripheral_sega_0_mux_o : std_logic;
-  signal my_peripheral_sega_0_sel_o : std_logic;
+  signal my_peripheral_sega_0_mux_o_0 : std_logic;
+  signal my_peripheral_sega_0_sel_o_0 : std_logic;
   signal net_battle_city_periph_0_clk_24MHz_i_pin : std_logic;
   signal net_battle_city_periph_0_rst_in_pin : std_logic;
   signal net_gnd0 : std_logic;
@@ -1902,8 +1902,8 @@ begin
   battle_city_periph_0_green_o_pin <= battle_city_periph_0_green_o;
   battle_city_periph_0_blue_o_pin <= battle_city_periph_0_blue_o;
   my_peripheral_sega_0_data_i <= my_peripheral_sega_0_data_i_pin;
-  my_peripheral_sega_0_mux_o_pin <= my_peripheral_sega_0_mux_o;
-  my_peripheral_sega_0_sel_o_pin <= my_peripheral_sega_0_sel_o;
+  my_peripheral_sega_0_mux_o_pin <= my_peripheral_sega_0_mux_o_0;
+  my_peripheral_sega_0_sel_o_pin <= my_peripheral_sega_0_sel_o_0;
   pgassign1(3 downto 3) <= clk_100_0000MHz(0 to 0);
   pgassign1(2 downto 2) <= clk_100_0000MHz(0 to 0);
   pgassign1(1 downto 1) <= clk_100_0000MHz(0 to 0);
@@ -3576,8 +3576,8 @@ begin
       S_AXI_BVALID => axi4lite_0_M_BVALID(3),
       S_AXI_AWREADY => axi4lite_0_M_AWREADY(3),
       data_i => my_peripheral_sega_0_data_i,
-      mux_o => my_peripheral_sega_0_mux_o,
-      sel_o => my_peripheral_sega_0_sel_o
+      mux_o => my_peripheral_sega_0_mux_o_0,
+      sel_o => my_peripheral_sega_0_sel_o_0
     );
 
   ibufgds_0 : IBUFGDS

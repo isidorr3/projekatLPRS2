@@ -145,7 +145,7 @@ process (clk_i, rst_in)
          elsif (clk_i'event and clk_i = '1') then
 				counter <= counter + '1'; 
 				if counter = 99999 then
-				--if counter = 10 then
+				--if counter = 9 then
 					counter_tc <= '1';
 					counter 	  <= (others => '0');
 				else

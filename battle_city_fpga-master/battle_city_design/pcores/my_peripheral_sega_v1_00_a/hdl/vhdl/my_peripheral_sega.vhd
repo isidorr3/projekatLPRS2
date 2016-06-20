@@ -195,7 +195,7 @@ architecture IMP of my_peripheral_sega is
       ZERO_ADDR_PAD & USER_SLV_HIGHADDR   -- user logic slave space high address
     );
 
-  constant USER_SLV_NUM_REG               : integer              := 32;
+  constant USER_SLV_NUM_REG               : integer              := 1;
   constant USER_NUM_REG                   : integer              := USER_SLV_NUM_REG;
   constant TOTAL_IPIF_CE                  : integer              := USER_NUM_REG;
 

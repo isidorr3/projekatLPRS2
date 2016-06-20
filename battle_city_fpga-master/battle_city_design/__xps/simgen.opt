@@ -1,1 +1,1 @@
- -p spartan6 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X C:/materija/ra115/battle_city_fpga-master/battle_city_design/
+ -p spartan6 -lang vhdl$(PROJECT_SEARCHPATHOPT) $(GLOBAL_SEARCHPATHOPT) -msg __xps/ise/xmsgprops.lst -s isim -X C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/

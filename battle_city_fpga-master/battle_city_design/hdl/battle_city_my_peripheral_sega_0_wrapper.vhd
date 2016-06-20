@@ -7,8 +7,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 library UNISIM;
 use UNISIM.VCOMPONENTS.ALL;
 
-library my_peripheral_sega_v1_00_a;
-use my_peripheral_sega_v1_00_a.all;
+library my_peripheral_sega_v1_00_b;
+use my_peripheral_sega_v1_00_b.all;
 
 entity battle_city_my_peripheral_sega_0_wrapper is
   port (

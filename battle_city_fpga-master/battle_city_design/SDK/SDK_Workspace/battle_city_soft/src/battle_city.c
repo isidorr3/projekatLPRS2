@@ -98,12 +98,22 @@
 #define REGS_BASE_ADDRESS               ( MAP_BASE_ADDRESS + MAP_WIDTH * MAP_HEIGHT )
 
 
-#define BTN_DOWN( b )                   ( !( b & 0x01 ) )
-#define BTN_UP( b )                     ( !( b & 0x10 ) )
-#define BTN_LEFT( b )                   ( !( b & 0x02 ) )
-#define BTN_RIGHT( b )                  ( !( b & 0x08 ) )
-#define BTN_SHOOT( b )                  ( !( b & 0x04 ) )
+/*out 765432MS*/
+/*~CBRL_DU SA_00DU _ CBRL_DU SA_00DU
+        joy2              joy1     */
+/* tank1 */
+#define BTN_UP( b )                     ( !( b & 0x40 ) )
+#define BTN_DOWN( b )                   ( !( b & 0x80 ) )
+#define BTN_LEFT( b )                   ( !( b & 0x100 ) )
+#define BTN_RIGHT( b )                  ( !( b & 0x200) )
+#define BTN_SHOOT( b )                  ( !( b & 0x800 ) )
 
+/* tank2 (tank_ai) */
+#define BTN_UP2( b )                     ( !( b & 0x40000 ) )
+#define BTN_DOWN2( b )                   ( !( b & 0x80000 ) )
+#define BTN_LEFT2( b )                   ( !( b & 0x100000 ) )
+#define BTN_RIGHT2( b )                  ( !( b & 0x200000) )
+#define BTN_SHOOT2( b )                  ( !( b & 0x800000 ) )
 
 #define TANK1_REG_L                     8
 #define TANK1_REG_H                     9
@@ -378,7 +388,13 @@ static bool_t tank_move( map_entry_t * map, tank_t * tank, direction_t dir )
 	bc = &map[ ( ( y + 15 ) / 8 ) * MAP_WIDTH + ( ( x + 7 ) / 8 ) ];
 	br = &map[ ( ( y + 15 ) / 8 ) * MAP_WIDTH + ( ( x + 15 ) / 8 ) ];
 
-    if( tank->x != x || tank->y != y ) {
+    if( tank->dir != dir ) {
+        tank->dir = dir;
+
+        Xil_Out32( XPAR_BATTLE_CITY_PERIPH_0_BASEADDR + 4 * ( REGS_BASE_ADDRESS + tank->reg_l ), (unsigned int)0x8F000000 | ( (unsigned int)tank->dir << 16 ) | tank->type );
+    }
+
+    if( tank->x != x || tank->y != y) {
         // Tank can move if water, iron or brick wall isn't ahead.
         if( tl->ptr != IMG_8x8_BRICK && tl->ptr != IMG_8x8_IRON && tl->ptr != IMG_8x8_WATER &&
 			tc->ptr != IMG_8x8_BRICK && tl->ptr != IMG_8x8_IRON && tl->ptr != IMG_8x8_WATER &&
@@ -392,13 +408,13 @@ static bool_t tank_move( map_entry_t * map, tank_t * tank, direction_t dir )
 
             tank->x = x;
             tank->y = y;
-
+/*
             if( tank->dir != dir ) {
                 tank->dir = dir;
 
                 Xil_Out32( XPAR_BATTLE_CITY_PERIPH_0_BASEADDR + 4 * ( REGS_BASE_ADDRESS + tank->reg_l ), (unsigned int)0x8F000000 | ( (unsigned int)tank->dir << 16 ) | tank->type );
             }
-
+*/
             Xil_Out32( XPAR_BATTLE_CITY_PERIPH_0_BASEADDR + 4 * ( REGS_BASE_ADDRESS + tank->reg_h ), ( tank->y << 16 ) | tank->x );
 
             return b_true;
@@ -686,8 +702,10 @@ void battle_city( void )
 	unsigned int buttons;
 	unsigned int ai_dir;
     unsigned int title[ 10 ] = { _B, _E, _T, _L, _SPACE, _S, _I, _T, _I, _TERM };
-    unsigned int game_victory[ 7 ] = { _P, _O, _B, _E, _D, _A, _TERM };
-    unsigned int game_loss[ 6 ] = { _P, _O, _R, _A, _Z, _TERM };
+//    unsigned int game_victory[ 7 ] = { _P, _O, _B, _E, _D, _A, _TERM };
+//    unsigned int game_loss[ 6 ] = { _P, _O, _R, _A, _Z, _TERM };
+	unsigned int game_victory1[ 13 ] = { _P, _O, _B, _E, _D, _A, _SPACE, _T, _A, _N, _K, _1, _TERM };
+	unsigned int game_victory2[ 13 ] = { _P, _O, _B, _E, _D, _A, _SPACE, _T, _A, _N, _K, _2, _TERM };
 
     game_time = 0;
     game_result = RES_NONE;
@@ -697,6 +715,11 @@ void battle_city( void )
 
     draw_string( 35, 1, title );
 
+    tank1.x =  ( MAP_X + MAP_W / 2 - 1 ) * 8;
+    tank1.y = ( MAP_Y + MAP_H - 5 ) * 8;
+    tank_ai.x = MAP_X * 8,
+    tank_ai.y = MAP_Y * 8,
+
     tank_spawn( &tank1 );
     tank_spawn( &tank_ai );
 
@@ -704,21 +727,34 @@ void battle_city( void )
 
     while( 1 ) {
     	if( game_time % 14 == 0 ) {
-            buttons = XIo_In32( XPAR_IO_PERIPH_BASEADDR );
+           // buttons = XIo_In32( XPAR_IO_PERIPH_BASEADDR );
+    		 buttons = XIo_In32( XPAR_MY_PERIPHERAL_SEGA_0_BASEADDR );
 
-			if( BTN_UP( buttons ) ) {
-				tank_move( map1, &tank1, DIR_UP );
-			} else if( BTN_DOWN( buttons ) ) {
+			if( BTN_SHOOT( buttons ) ) {
+				tank_fire( map1, &tank1 );
+			}else if( BTN_DOWN( buttons ) ) {
 				tank_move( map1, &tank1, DIR_DOWN );
 			}  else if( BTN_LEFT( buttons ) ) {
 				tank_move( map1, &tank1, DIR_LEFT );
 			} else if( BTN_RIGHT( buttons ) ) {
 				tank_move( map1, &tank1, DIR_RIGHT );
-			} else if( BTN_SHOOT( buttons ) ) {
-				tank_fire( map1, &tank1 );
+			} else if( BTN_UP( buttons ) ) {
+				tank_move( map1, &tank1, DIR_UP );
+			}
+			
+			if( BTN_SHOOT2( buttons ) ) {
+				tank_fire( map1, &tank_ai );
+			}else if( BTN_DOWN2( buttons ) ) {
+				tank_move( map1, &tank_ai, DIR_DOWN );
+			}  else if( BTN_LEFT2( buttons ) ) {
+				tank_move( map1, &tank_ai, DIR_LEFT );
+			} else if( BTN_RIGHT2( buttons ) ) {
+				tank_move( map1, &tank_ai, DIR_RIGHT );
+			} else if( BTN_UP2( buttons ) ) {
+				tank_move( map1, &tank_ai, DIR_UP );
 			}
 
-			process_ai( &tank_ai, &ai_dir );
+			//process_ai( &tank_ai, &ai_dir );
     	}
 
     	process_bullet( map1, &tank_ai.bullet );
@@ -726,10 +762,12 @@ void battle_city( void )
         map_update( map1 );
 
         if( game_result == RES_VICTORY ) {
-        	draw_string( 1, 4, game_victory );
+        	//draw_string( 1, 4, game_victory );
+			draw_string( 1, 4, game_victory1 );
         	break;
         } else if( game_result == RES_LOSS ) {
-        	draw_string( 1, 4, game_loss );
+        	//draw_string( 1, 4, game_loss );
+			draw_string( 1, 4, game_victory2 );
         	break;
         }
 

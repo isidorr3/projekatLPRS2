@@ -27,8 +27,8 @@
  PORT battle_city_periph_0_green_o_pin = battle_city_periph_0_green_o, DIR = O, VEC = [7:0]
  PORT battle_city_periph_0_blue_o_pin = battle_city_periph_0_blue_o, DIR = O, VEC = [7:0]
  PORT my_peripheral_sega_0_data_i_pin = my_peripheral_sega_0_data_i, DIR = I, VEC = [5:0]
- PORT my_peripheral_sega_0_mux_o_pin = my_peripheral_sega_0_mux_o, DIR = O
- PORT my_peripheral_sega_0_sel_o_pin = my_peripheral_sega_0_sel_o, DIR = O
+ PORT my_peripheral_sega_0_mux_o_pin = my_peripheral_sega_0_mux_o_0, DIR = O
+ PORT my_peripheral_sega_0_sel_o_pin = my_peripheral_sega_0_sel_o_0, DIR = O
 
 
 BEGIN proc_sys_reset
@@ -172,13 +172,13 @@ END
 
 BEGIN my_peripheral_sega
  PARAMETER INSTANCE = my_peripheral_sega_0
- PARAMETER HW_VER = 1.00.a
+ PARAMETER HW_VER = 1.00.b
  PARAMETER C_BASEADDR = 0x7b200000
  PARAMETER C_HIGHADDR = 0x7b20ffff
  BUS_INTERFACE S_AXI = axi4lite_0
  PORT S_AXI_ACLK = clk_100_0000MHz
  PORT data_i = my_peripheral_sega_0_data_i
- PORT mux_o = my_peripheral_sega_0_mux_o
- PORT sel_o = my_peripheral_sega_0_sel_o
+ PORT mux_o = my_peripheral_sega_0_mux_o_0
+ PORT sel_o = my_peripheral_sega_0_sel_o_0
 END
 

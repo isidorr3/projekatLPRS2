@@ -95,7 +95,11 @@ BEGIN
 		rst_in <= '1';
 		data_i <= "100010";
 		
-      wait for clk_i_period*50;
+      wait for clk_i_period*60;
+		
+		data_i <= "111111";
+		
+      wait for clk_i_period*60;
 		
 		rst_in <= '0';
 

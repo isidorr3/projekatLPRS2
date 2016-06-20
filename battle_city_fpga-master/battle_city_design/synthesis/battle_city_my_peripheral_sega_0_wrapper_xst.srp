@@ -1,6 +1,6 @@
 Release 14.6 - xst P.68d (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to C:\materija\ra115\battle_city_fpga-master\battle_city_design\synthesis\xst_temp_dir\
+--> Parameter TMPDIR set to C:\materija\ra115\projekat_radi_3\projekat_radi\battle_city_fpga-master\battle_city_design\synthesis\xst_temp_dir\
 
 
 Total REAL time to Xst completion: 0.00 secs
@@ -35,7 +35,7 @@ TABLE OF CONTENTS
 ---- Source Parameters
 Input Format                       : MIXED
 Input File Name                    : "battle_city_my_peripheral_sega_0_wrapper_xst.prj"
-Verilog Include Directory          : {"C:\materija\ra115\battle_city_fpga-master\battle_city_design\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
+Verilog Include Directory          : {"C:\materija\ra115\projekat_radi_3\projekat_radi\battle_city_fpga-master\battle_city_design\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxBFMinterface\pcores\" "C:\Xilinx\14.6\ISE_DS\EDK\hw\XilinxProcessorIPLib\pcores\" }
 
 ---- Target Parameters
 Target Device                      : xc6slx45fgg676-2
@@ -427,19 +427,19 @@ Parsing architecture <imp> of entity <slave_attachment>.
 Parsing VHDL file "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/axi_lite_ipif.vhd" into library axi_lite_ipif_v1_01_a
 Parsing entity <axi_lite_ipif>.
 Parsing architecture <imp> of entity <axi_lite_ipif>.
-Parsing VHDL file "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/user_logic.vhd" into library my_peripheral_sega_v1_00_a
+Parsing VHDL file "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/user_logic.vhd" into library my_peripheral_sega_v1_00_b
 Parsing entity <user_logic>.
 Parsing architecture <IMP> of entity <user_logic>.
-Parsing VHDL file "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/reg.vhd" into library my_peripheral_sega_v1_00_a
-Parsing entity <reg>.
-Parsing architecture <arch_reg> of entity <reg>.
-Parsing VHDL file "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/sega_joystic_driver.vhd" into library my_peripheral_sega_v1_00_a
-Parsing entity <sega_joystic_driver>.
-Parsing architecture <Behavioral> of entity <sega_joystic_driver>.
-Parsing VHDL file "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/my_peripheral_sega.vhd" into library my_peripheral_sega_v1_00_a
+Parsing VHDL file "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/my_peripheral_sega.vhd" into library my_peripheral_sega_v1_00_b
 Parsing entity <my_peripheral_sega>.
 Parsing architecture <IMP> of entity <my_peripheral_sega>.
-Parsing VHDL file "C:\materija\ra115\battle_city_fpga-master\battle_city_design\hdl\battle_city_my_peripheral_sega_0_wrapper.vhd" into library work
+Parsing VHDL file "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/reg.vhd" into library my_peripheral_sega_v1_00_b
+Parsing entity <reg>.
+Parsing architecture <arch_reg> of entity <reg>.
+Parsing VHDL file "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/sega_joystic_driver.vhd" into library my_peripheral_sega_v1_00_b
+Parsing entity <sega_joystic_driver>.
+Parsing architecture <Behavioral> of entity <sega_joystic_driver>.
+Parsing VHDL file "C:\materija\ra115\projekat_radi_3\projekat_radi\battle_city_fpga-master\battle_city_design\hdl\battle_city_my_peripheral_sega_0_wrapper.vhd" into library work
 Parsing entity <battle_city_my_peripheral_sega_0_wrapper>.
 Parsing architecture <STRUCTURE> of entity <battle_city_my_peripheral_sega_0_wrapper>.
 
@@ -449,98 +449,34 @@ Parsing architecture <STRUCTURE> of entity <battle_city_my_peripheral_sega_0_wra
 
 Elaborating entity <battle_city_my_peripheral_sega_0_wrapper> (architecture <STRUCTURE>) from library <work>.
 
-Elaborating entity <my_peripheral_sega> (architecture <IMP>) with generics from library <my_peripheral_sega_v1_00_a>.
+Elaborating entity <my_peripheral_sega> (architecture <IMP>) with generics from library <my_peripheral_sega_v1_00_b>.
 
 Elaborating entity <axi_lite_ipif> (architecture <imp>) with generics from library <axi_lite_ipif_v1_01_a>.
 
 Elaborating entity <slave_attachment> (architecture <imp>) with generics from library <axi_lite_ipif_v1_01_a>.
 
 Elaborating entity <address_decoder> (architecture <IMP>) with generics from library <axi_lite_ipif_v1_01_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
-
-Elaborating entity <pselect_f> (architecture <imp>) with generics from library <proc_common_v3_00_a>.
 INFO:HDLCompiler:679 - "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd" Line 417. Case statement is complete. others clause is never selected
 
-Elaborating entity <user_logic> (architecture <IMP>) with generics from library <my_peripheral_sega_v1_00_a>.
+Elaborating entity <user_logic> (architecture <IMP>) with generics from library <my_peripheral_sega_v1_00_b>.
 
-Elaborating entity <sega_joystic_driver> (architecture <Behavioral>) from library <my_peripheral_sega_v1_00_a>.
+Elaborating entity <sega_joystic_driver> (architecture <Behavioral>) from library <my_peripheral_sega_v1_00_b>.
 
-Elaborating entity <reg> (architecture <arch_reg>) with generics from library <my_peripheral_sega_v1_00_a>.
-WARNING:HDLCompiler:1127 - "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/user_logic.vhd" Line 234: Assignment to slv_reg0 ignored, since the identifier is never used
+Elaborating entity <reg> (architecture <arch_reg>) with generics from library <my_peripheral_sega_v1_00_b>.
+WARNING:HDLCompiler:1127 - "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/user_logic.vhd" Line 202: Assignment to slv_reg0 ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <battle_city_my_peripheral_sega_0_wrapper>.
-    Related source file is "C:\materija\ra115\battle_city_fpga-master\battle_city_design\hdl\battle_city_my_peripheral_sega_0_wrapper.vhd".
+    Related source file is "C:\materija\ra115\projekat_radi_3\projekat_radi\battle_city_fpga-master\battle_city_design\hdl\battle_city_my_peripheral_sega_0_wrapper.vhd".
     Summary:
 	no macro.
 Unit <battle_city_my_peripheral_sega_0_wrapper> synthesized.
 
 Synthesizing Unit <my_peripheral_sega>.
-    Related source file is "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/my_peripheral_sega.vhd".
+    Related source file is "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/my_peripheral_sega.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
         C_S_AXI_DATA_WIDTH = 32
@@ -571,7 +507,7 @@ Synthesizing Unit <axi_lite_ipif>.
         C_USE_WSTRB = 0
         C_DPHASE_TIMEOUT = 8
         C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000001111011001000000000000000000000","0000000000000000000000000000000001111011001000001111111111111111")
-        C_ARD_NUM_CE_ARRAY = (32)
+        C_ARD_NUM_CE_ARRAY = (1)
         C_FAMILY = "spartan6"
     Summary:
 	no macro.
@@ -580,7 +516,7 @@ Unit <axi_lite_ipif> synthesized.
 Synthesizing Unit <slave_attachment>.
     Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/axi_lite_ipif_v1_01_a/hdl/vhdl/slave_attachment.vhd".
         C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000001111011001000000000000000000000","0000000000000000000000000000000001111011001000001111111111111111")
-        C_ARD_NUM_CE_ARRAY = (32)
+        C_ARD_NUM_CE_ARRAY = (1)
         C_IPIF_ABUS_WIDTH = 32
         C_IPIF_DBUS_WIDTH = 32
         C_S_AXI_MIN_SIZE = "00000000000000000000000111111111"
@@ -626,435 +562,63 @@ Synthesizing Unit <address_decoder>.
         C_BUS_AWIDTH = 9
         C_S_AXI_MIN_SIZE = "00000000000000000000000111111111"
         C_ARD_ADDR_RANGE_ARRAY = ("0000000000000000000000000000000001111011001000000000000000000000","0000000000000000000000000000000001111011001000001111111111111111")
-        C_ARD_NUM_CE_ARRAY = (32)
+        C_ARD_NUM_CE_ARRAY = (1)
         C_FAMILY = "nofamily"
-WARNING:Xst:647 - Input <Address_In_Erly<0:1>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Address_In_Erly> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus_RNW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <Bus_RNW_reg>.
-    Found 1-bit register for signal <ce_out_i<0>>.
-    Found 1-bit register for signal <ce_out_i<1>>.
-    Found 1-bit register for signal <ce_out_i<2>>.
-    Found 1-bit register for signal <ce_out_i<3>>.
-    Found 1-bit register for signal <ce_out_i<4>>.
-    Found 1-bit register for signal <ce_out_i<5>>.
-    Found 1-bit register for signal <ce_out_i<6>>.
-    Found 1-bit register for signal <ce_out_i<7>>.
-    Found 1-bit register for signal <ce_out_i<8>>.
-    Found 1-bit register for signal <ce_out_i<9>>.
-    Found 1-bit register for signal <ce_out_i<10>>.
-    Found 1-bit register for signal <ce_out_i<11>>.
-    Found 1-bit register for signal <ce_out_i<12>>.
-    Found 1-bit register for signal <ce_out_i<13>>.
-    Found 1-bit register for signal <ce_out_i<14>>.
-    Found 1-bit register for signal <ce_out_i<15>>.
-    Found 1-bit register for signal <ce_out_i<16>>.
-    Found 1-bit register for signal <ce_out_i<17>>.
-    Found 1-bit register for signal <ce_out_i<18>>.
-    Found 1-bit register for signal <ce_out_i<19>>.
-    Found 1-bit register for signal <ce_out_i<20>>.
-    Found 1-bit register for signal <ce_out_i<21>>.
-    Found 1-bit register for signal <ce_out_i<22>>.
-    Found 1-bit register for signal <ce_out_i<23>>.
-    Found 1-bit register for signal <ce_out_i<24>>.
-    Found 1-bit register for signal <ce_out_i<25>>.
-    Found 1-bit register for signal <ce_out_i<26>>.
-    Found 1-bit register for signal <ce_out_i<27>>.
-    Found 1-bit register for signal <ce_out_i<28>>.
-    Found 1-bit register for signal <ce_out_i<29>>.
-    Found 1-bit register for signal <ce_out_i<30>>.
-    Found 1-bit register for signal <ce_out_i<31>>.
+    Found 1-bit register for signal <ce_out_i>.
     Found 1-bit register for signal <cs_out_i>.
     Summary:
-	inferred  34 D-type flip-flop(s).
+	inferred   3 D-type flip-flop(s).
 Unit <address_decoder> synthesized.
 
-Synthesizing Unit <pselect_f_1>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00000"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_1> synthesized.
-
-Synthesizing Unit <pselect_f_2>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00001"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_2> synthesized.
-
-Synthesizing Unit <pselect_f_3>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00010"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_3> synthesized.
-
-Synthesizing Unit <pselect_f_4>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00011"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_4> synthesized.
-
-Synthesizing Unit <pselect_f_5>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00100"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_5> synthesized.
-
-Synthesizing Unit <pselect_f_6>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00101"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_6> synthesized.
-
-Synthesizing Unit <pselect_f_7>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00110"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_7> synthesized.
-
-Synthesizing Unit <pselect_f_8>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "00111"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_8> synthesized.
-
-Synthesizing Unit <pselect_f_9>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01000"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_9> synthesized.
-
-Synthesizing Unit <pselect_f_10>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01001"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_10> synthesized.
-
-Synthesizing Unit <pselect_f_11>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01010"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_11> synthesized.
-
-Synthesizing Unit <pselect_f_12>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01011"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_12> synthesized.
-
-Synthesizing Unit <pselect_f_13>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01100"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_13> synthesized.
-
-Synthesizing Unit <pselect_f_14>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01101"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_14> synthesized.
-
-Synthesizing Unit <pselect_f_15>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01110"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_15> synthesized.
-
-Synthesizing Unit <pselect_f_16>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "01111"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_16> synthesized.
-
-Synthesizing Unit <pselect_f_17>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10000"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_17> synthesized.
-
-Synthesizing Unit <pselect_f_18>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10001"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_18> synthesized.
-
-Synthesizing Unit <pselect_f_19>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10010"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_19> synthesized.
-
-Synthesizing Unit <pselect_f_20>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10011"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_20> synthesized.
-
-Synthesizing Unit <pselect_f_21>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10100"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_21> synthesized.
-
-Synthesizing Unit <pselect_f_22>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10101"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_22> synthesized.
-
-Synthesizing Unit <pselect_f_23>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10110"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_23> synthesized.
-
-Synthesizing Unit <pselect_f_24>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "10111"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_24> synthesized.
-
-Synthesizing Unit <pselect_f_25>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11000"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_25> synthesized.
-
-Synthesizing Unit <pselect_f_26>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11001"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_26> synthesized.
-
-Synthesizing Unit <pselect_f_27>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11010"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_27> synthesized.
-
-Synthesizing Unit <pselect_f_28>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11011"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_28> synthesized.
-
-Synthesizing Unit <pselect_f_29>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11100"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_29> synthesized.
-
-Synthesizing Unit <pselect_f_30>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11101"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_30> synthesized.
-
-Synthesizing Unit <pselect_f_31>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11110"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_31> synthesized.
-
-Synthesizing Unit <pselect_f_32>.
-    Related source file is "C:/Xilinx/14.6/ISE_DS/EDK/hw/XilinxProcessorIPLib/pcores/proc_common_v3_00_a/hdl/vhdl/pselect_f.vhd".
-        C_AB = 5
-        C_AW = 5
-        C_BAR = "11111"
-        C_FAMILY = "nofamily"
-    Summary:
-	inferred   1 Multiplexer(s).
-Unit <pselect_f_32> synthesized.
-
 Synthesizing Unit <user_logic>.
-    Related source file is "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/user_logic.vhd".
+    Related source file is "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/user_logic.vhd".
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
-        C_NUM_REG = 32
+        C_NUM_REG = 1
         C_SLV_DWIDTH = 32
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:37 - Detected unknown constraint/property "sigis". This constraint/property is not supported by the current software release and will be ignored.
 WARNING:Xst:647 - Input <Bus2IP_Addr> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_CS> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Bus2IP_Data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Bus2IP_BE> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <Bus2IP_RNW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 32-bit register for signal <slv_reg1>.
-    Found 32-bit register for signal <slv_reg2>.
-    Found 32-bit register for signal <slv_reg3>.
-    Found 32-bit register for signal <slv_reg4>.
-    Found 32-bit register for signal <slv_reg5>.
-    Found 32-bit register for signal <slv_reg6>.
-    Found 32-bit register for signal <slv_reg7>.
-    Found 32-bit register for signal <slv_reg8>.
-    Found 32-bit register for signal <slv_reg9>.
-    Found 32-bit register for signal <slv_reg10>.
-    Found 32-bit register for signal <slv_reg11>.
-    Found 32-bit register for signal <slv_reg12>.
-    Found 32-bit register for signal <slv_reg13>.
-    Found 32-bit register for signal <slv_reg14>.
-    Found 32-bit register for signal <slv_reg15>.
-    Found 32-bit register for signal <slv_reg16>.
-    Found 32-bit register for signal <slv_reg17>.
-    Found 32-bit register for signal <slv_reg18>.
-    Found 32-bit register for signal <slv_reg19>.
-    Found 32-bit register for signal <slv_reg20>.
-    Found 32-bit register for signal <slv_reg21>.
-    Found 32-bit register for signal <slv_reg22>.
-    Found 32-bit register for signal <slv_reg23>.
-    Found 32-bit register for signal <slv_reg24>.
-    Found 32-bit register for signal <slv_reg25>.
-    Found 32-bit register for signal <slv_reg26>.
-    Found 32-bit register for signal <slv_reg27>.
-    Found 32-bit register for signal <slv_reg28>.
-    Found 32-bit register for signal <slv_reg29>.
-    Found 32-bit register for signal <slv_reg30>.
-    Found 32-bit register for signal <slv_reg31>.
     Summary:
-	inferred 992 D-type flip-flop(s).
-	inferred 993 Multiplexer(s).
+	inferred   2 Multiplexer(s).
 Unit <user_logic> synthesized.
 
 Synthesizing Unit <sega_joystic_driver>.
-    Related source file is "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/sega_joystic_driver.vhd".
+    Related source file is "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/sega_joystic_driver.vhd".
     Found 2-bit register for signal <state>.
     Found 17-bit register for signal <counter>.
     Found 1-bit register for signal <counter_tc>.
-    Found 17-bit adder for signal <counter[16]_GND_49_o_add_0_OUT> created at line 146.
-    Found 4x2-bit Read Only RAM for signal <_n0049>
-WARNING:Xst:737 - Found 1-bit latch for signal <next_state<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <mux_s>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-WARNING:Xst:737 - Found 1-bit latch for signal <sel_s>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk_i (rising_edge)                            |
+    | Reset              | rst_in (negative)                              |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | reg1                                           |
+    | Power Up State     | reg1                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 17-bit adder for signal <counter[16]_GND_17_o_add_0_OUT> created at line 138.
     Summary:
-	inferred   1 RAM(s).
 	inferred   1 Adder/Subtractor(s).
-	inferred  20 D-type flip-flop(s).
-	inferred   3 Latch(s).
+	inferred  18 D-type flip-flop(s).
 	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
 Unit <sega_joystic_driver> synthesized.
 
 Synthesizing Unit <reg>.
-    Related source file is "C:/materija/ra115/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_a/hdl/vhdl/reg.vhd".
+    Related source file is "C:/materija/ra115/projekat_radi_3/projekat_radi/battle_city_fpga-master/battle_city_design/pcores/my_peripheral_sega_v1_00_b/hdl/vhdl/reg.vhd".
         WIDTH = 6
         RST_INIT = 0
     Found 6-bit register for signal <r_q>.
@@ -1066,25 +630,21 @@ Unit <reg> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 4x2-bit single-port Read Only RAM                     : 1
 # Adders/Subtractors                                   : 2
  17-bit adder                                          : 1
  4-bit adder                                           : 1
-# Registers                                            : 79
- 1-bit register                                        : 38
+# Registers                                            : 16
+ 1-bit register                                        : 7
  17-bit register                                       : 1
- 2-bit register                                        : 3
- 32-bit register                                       : 32
+ 2-bit register                                        : 2
+ 32-bit register                                       : 1
  4-bit register                                        : 1
  6-bit register                                        : 4
-# Latches                                              : 3
- 1-bit latch                                           : 3
-# Multiplexers                                         : 1028
- 1-bit 2-to-1 multiplexer                              : 1025
+# Multiplexers                                         : 5
+ 1-bit 2-to-1 multiplexer                              : 1
  17-bit 2-to-1 multiplexer                             : 1
- 32-bit 2-to-1 multiplexer                             : 2
-# FSMs                                                 : 1
+ 32-bit 2-to-1 multiplexer                             : 3
+# FSMs                                                 : 2
 
 =========================================================================
 
@@ -1095,17 +655,6 @@ Macro Statistics
 
 Synthesizing (advanced) Unit <sega_joystic_driver>.
 The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0049> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 4-word x 2-bit                      |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <state>         |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to internal node          |          |
-    -----------------------------------------------------------------------
 Unit <sega_joystic_driver> synthesized (advanced).
 
 Synthesizing (advanced) Unit <slave_attachment>.
@@ -1116,17 +665,15 @@ Unit <slave_attachment> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 4x2-bit single-port distributed Read Only RAM         : 1
 # Counters                                             : 2
  17-bit up counter                                     : 1
  4-bit up counter                                      : 1
-# Registers                                            : 1092
- Flip-Flops                                            : 1092
-# Multiplexers                                         : 995
- 1-bit 2-to-1 multiplexer                              : 993
- 32-bit 2-to-1 multiplexer                             : 2
-# FSMs                                                 : 1
+# Registers                                            : 67
+ Flip-Flops                                            : 67
+# Multiplexers                                         : 4
+ 1-bit 2-to-1 multiplexer                              : 1
+ 32-bit 2-to-1 multiplexer                             : 3
+# FSMs                                                 : 2
 
 =========================================================================
 
@@ -1135,6 +682,19 @@ Macro Statistics
 =========================================================================
 WARNING:Xst:1293 - FF/Latch <s_axi_rresp_i_0> has a constant value of 0 in block <slave_attachment>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <s_axi_bresp_i_0> has a constant value of 0 in block <slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <I_DECODER/ce_out_i_0> in Unit <slave_attachment> is equivalent to the following FF/Latch, which will be removed : <I_DECODER/cs_out_i_0> 
+WARNING:Xst:1293 - FF/Latch <s_axi_rresp_i_1> has a constant value of 0 in block <slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <s_axi_bresp_i_1> has a constant value of 0 in block <slave_attachment>. This FF/Latch will be trimmed during the optimization process.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <my_peripheral_sega_0/USER_LOGIC_I/sega_driver/FSM_1> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ reg1  | 00
+ reg2  | 01
+ reg3  | 10
+ reg4  | 11
+-------------------
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/FSM_0> on signal <state[1:2]> with user encoding.
 ----------------------
@@ -1145,33 +705,25 @@ Optimizing FSM <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/FSM_0> o
  sm_write | 10
  sm_resp  | 11
 ----------------------
-INFO:Xst:2261 - The FF/Latch <sel_s> in Unit <sega_joystic_driver> is equivalent to the following FF/Latch, which will be removed : <next_state_0> 
 
 Optimizing unit <battle_city_my_peripheral_sega_0_wrapper> ...
-
-Optimizing unit <user_logic> ...
 
 Optimizing unit <sega_joystic_driver> ...
 
 Optimizing unit <slave_attachment> ...
-
-Optimizing unit <address_decoder> ...
-WARNING:Xst:1293 - FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_bresp_i_1> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rresp_i_1> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/cs_out_i_0> of sequential type is unconnected in block <battle_city_my_peripheral_sega_0_wrapper>.
+WARNING:Xst:1293 - FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_31> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_30> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_29> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_28> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_27> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_26> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_25> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_24> has a constant value of 0 in block <battle_city_my_peripheral_sega_0_wrapper>. This FF/Latch will be trimmed during the optimization process.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 0) on block battle_city_my_peripheral_sega_0_wrapper, actual ratio is 7.
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg has been replicated 7 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_1 has been replicated 1 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_12 has been replicated 2 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_13 has been replicated 2 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_14 has been replicated 2 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_17 has been replicated 2 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_18 has been replicated 2 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_20 has been replicated 1 time(s)
-FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_21 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 0) on block battle_city_my_peripheral_sega_0_wrapper, actual ratio is 0.
+FlipFlop my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0 has been replicated 1 time(s)
 
 Final Macro Processing ...
 
@@ -1179,8 +731,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 1130
- Flip-Flops                                            : 1130
+# Registers                                            : 80
+ Flip-Flops                                            : 80
 
 =========================================================================
 
@@ -1203,26 +755,25 @@ Top Level Output File Name         : battle_city_my_peripheral_sega_0_wrapper.ng
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1827
+# BELS                             : 124
 #      GND                         : 1
-#      INV                         : 4
+#      INV                         : 3
 #      LUT1                        : 16
-#      LUT2                        : 70
-#      LUT3                        : 272
-#      LUT4                        : 607
-#      LUT5                        : 87
-#      LUT6                        : 725
+#      LUT2                        : 6
+#      LUT3                        : 4
+#      LUT4                        : 21
+#      LUT5                        : 32
+#      LUT6                        : 5
 #      MUXCY                       : 16
-#      MUXF7                       : 11
+#      MUXF7                       : 2
 #      VCC                         : 1
 #      XORCY                       : 17
-# FlipFlops/Latches                : 1132
-#      FD                          : 55
+# FlipFlops/Latches                : 80
+#      FD                          : 9
 #      FDC                         : 19
 #      FDCE                        : 24
-#      FDR                         : 8
-#      FDRE                        : 1024
-#      LD                          : 2
+#      FDR                         : 4
+#      FDRE                        : 24
 
 Device utilization summary:
 ---------------------------
@@ -1231,16 +782,16 @@ Selected Device : 6slx45fgg676-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1132  out of  54576     2%  
- Number of Slice LUTs:                 1781  out of  27288     6%  
-    Number used as Logic:              1781  out of  27288     6%  
+ Number of Slice Registers:              80  out of  54576     0%  
+ Number of Slice LUTs:                   87  out of  27288     0%  
+    Number used as Logic:                87  out of  27288     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2200
-   Number with an unused Flip Flop:    1068  out of   2200    48%  
-   Number with an unused LUT:           419  out of   2200    19%  
-   Number of fully used LUT-FF pairs:   713  out of   2200    32%  
-   Number of unique control sets:        25
+ Number of LUT Flip Flop pairs used:    109
+   Number with an unused Flip Flop:      29  out of    109    26%  
+   Number with an unused LUT:            22  out of    109    20%  
+   Number of fully used LUT-FF pairs:    58  out of    109    53%  
+   Number of unique control sets:         8
 
 IO Utilization: 
  Number of IOs:                         156
@@ -1266,12 +817,11 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
---------------------------------------------------------+----------------------------------------------------------+-------+
-Clock Signal                                            | Clock buffer(FF name)                                    | Load  |
---------------------------------------------------------+----------------------------------------------------------+-------+
-S_AXI_ACLK                                              | NONE(my_peripheral_sega_0/USER_LOGIC_I/slv_reg31_31)     | 1130  |
-my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc| NONE(my_peripheral_sega_0/USER_LOGIC_I/sega_driver/mux_s)| 2     |
---------------------------------------------------------+----------------------------------------------------------+-------+
+-----------------------------------+---------------------------------------------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)                                         | Load  |
+-----------------------------------+---------------------------------------------------------------+-------+
+S_AXI_ACLK                         | NONE(my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_16)| 80    |
+-----------------------------------+---------------------------------------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
 Asynchronous Control Signals Information:
@@ -1282,9 +832,9 @@ Timing Summary:
 ---------------
 Speed Grade: -2
 
-   Minimum period: 8.691ns (Maximum Frequency: 115.062MHz)
-   Minimum input arrival time before clock: 4.267ns
-   Maximum output required time after clock: 5.694ns
+   Minimum period: 3.707ns (Maximum Frequency: 269.760MHz)
+   Minimum input arrival time before clock: 2.434ns
+   Maximum output required time after clock: 2.336ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -1293,90 +843,64 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'S_AXI_ACLK'
-  Clock period: 8.691ns (frequency: 115.062MHz)
-  Total number of paths / destination ports: 89392 / 1783
+  Clock period: 3.707ns (frequency: 269.760MHz)
+  Total number of paths / destination ports: 742 / 131
 -------------------------------------------------------------------------
-Delay:               8.691ns (Levels of Logic = 6)
-  Source:            my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_3 (FF)
-  Destination:       my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_17 (FF)
+Delay:               3.707ns (Levels of Logic = 2)
+  Source:            my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_11 (FF)
+  Destination:       my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_16 (FF)
   Source Clock:      S_AXI_ACLK rising
   Destination Clock: S_AXI_ACLK rising
 
-  Data Path: my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_3 to my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_17
+  Data Path: my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_11 to my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_16
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              17   0.525   1.485  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_3 (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_3)
-     LUT5:I1->O            7   0.254   0.910  my_peripheral_sega_0/USER_LOGIC_I/GND_48_o_slv_reg_read_sel[31]_equal_133_o<31>111 (my_peripheral_sega_0/USER_LOGIC_I/GND_48_o_slv_reg_read_sel[31]_equal_133_o<31>11)
-     LUT6:I5->O           16   0.254   1.182  my_peripheral_sega_0/USER_LOGIC_I/GND_48_o_slv_reg_read_sel[31]_equal_133_o<31>12_1 (my_peripheral_sega_0/USER_LOGIC_I/GND_48_o_slv_reg_read_sel[31]_equal_133_o<31>12)
-     LUT5:I4->O           17   0.254   1.437  my_peripheral_sega_0/USER_LOGIC_I/GND_48_o_slv_reg_read_sel[31]_equal_133_o<31>1 (my_peripheral_sega_0/USER_LOGIC_I/GND_48_o_slv_reg_read_sel[31]_equal_133_o)
-     LUT6:I3->O            1   0.235   0.910  my_peripheral_sega_0/USER_LOGIC_I/Mmux_IP2Bus_Data110_SW0_SW0 (N508)
-     LUT6:I3->O            1   0.235   0.682  my_peripheral_sega_0/USER_LOGIC_I/Mmux_IP2Bus_Data115 (my_peripheral_sega_0/USER_LOGIC_I/Mmux_IP2Bus_Data111)
-     LUT5:I4->O            1   0.254   0.000  my_peripheral_sega_0/USER_LOGIC_I/Mmux_IP2Bus_Data123 (my_peripheral_sega_0/user_IP2Bus_Data<0>)
-     FDRE:D                    0.074          my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/s_axi_rdata_i_0
+     FDC:C->Q              2   0.525   1.156  my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_11 (my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_11)
+     LUT5:I0->O           18   0.254   1.463  my_peripheral_sega_0/USER_LOGIC_I/sega_driver/GND_17_o_GND_17_o_equal_2_o<16>3 (my_peripheral_sega_0/USER_LOGIC_I/sega_driver/GND_17_o_GND_17_o_equal_2_o<16>2)
+     LUT5:I2->O            1   0.235   0.000  my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc_rstpot (my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc_rstpot)
+     FD:D                      0.074          my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc
     ----------------------------------------
-    Total                      8.691ns (2.085ns logic, 6.606ns route)
-                                       (24.0% logic, 76.0% route)
+    Total                      3.707ns (1.088ns logic, 2.619ns route)
+                                       (29.3% logic, 70.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'S_AXI_ACLK'
-  Total number of paths / destination ports: 3077 / 2110
+  Total number of paths / destination ports: 90 / 76
 -------------------------------------------------------------------------
-Offset:              4.267ns (Levels of Logic = 3)
-  Source:            S_AXI_AWVALID (PAD)
-  Destination:       my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_14 (FF)
+Offset:              2.434ns (Levels of Logic = 1)
+  Source:            S_AXI_ARESETN (PAD)
+  Destination:       my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_16 (FF)
   Destination Clock: S_AXI_ACLK rising
 
-  Data Path: S_AXI_AWVALID to my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_14
+  Data Path: S_AXI_ARESETN to my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_16
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     LUT5:I2->O           68   0.235   2.391  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/Mmux_start11 (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/start)
-     LUT6:I1->O            2   0.254   0.834  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/MEM_DECODE_GEN[0].PER_CE_GEN[14].MULTIPLE_CES_THIS_CS_GEN.CE_I/Mmux_CS11 (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_expnd_i<14>)
-     LUT4:I2->O            2   0.250   0.000  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_14_rstpot (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_14_rstpot)
-     FD:D                      0.074          my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_14
+     INV:I->O             44   0.255   1.720  my_peripheral_sega_0/USER_LOGIC_I/sega_driver/joy_reg1/in_rst_inv1_INV_0 (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rst_rstpot)
+     FDCE:CLR                  0.459          my_peripheral_sega_0/USER_LOGIC_I/sega_driver/joy_reg1/r_q_0
     ----------------------------------------
-    Total                      4.267ns (1.042ns logic, 3.225ns route)
-                                       (24.4% logic, 75.6% route)
+    Total                      2.434ns (0.714ns logic, 1.720ns route)
+                                       (29.3% logic, 70.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'S_AXI_ACLK'
-  Total number of paths / destination ports: 195 / 37
+  Total number of paths / destination ports: 37 / 31
 -------------------------------------------------------------------------
-Offset:              5.694ns (Levels of Logic = 3)
-  Source:            my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_2 (FF)
+Offset:              2.336ns (Levels of Logic = 1)
+  Source:            my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0 (FF)
   Destination:       S_AXI_ARREADY (PAD)
   Source Clock:      S_AXI_ACLK rising
 
-  Data Path: my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_2 to S_AXI_ARREADY
+  Data Path: my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0 to S_AXI_ARREADY
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              20   0.525   1.286  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_2 (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/Bus_RNW_reg_2)
-     LUT2:I1->O           65   0.254   2.165  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/rdce_out_i<26>1 (my_peripheral_sega_0/ipif_Bus2IP_RdCE<5>)
-     LUT6:I3->O            3   0.235   0.994  my_peripheral_sega_0/USER_LOGIC_I/slv_read_ack<0>2 (my_peripheral_sega_0/USER_LOGIC_I/slv_read_ack<0>1)
-     LUT6:I3->O            2   0.235   0.000  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rd_done1 (S_AXI_ARREADY)
+     FD:C->Q              28   0.525   1.561  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0 (my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/I_DECODER/ce_out_i_0)
+     LUT3:I1->O            0   0.250   0.000  my_peripheral_sega_0/AXI_LITE_IPIF_I/I_SLAVE_ATTACHMENT/rd_done1 (S_AXI_ARREADY)
     ----------------------------------------
-    Total                      5.694ns (1.249ns logic, 4.445ns route)
-                                       (21.9% logic, 78.1% route)
-
-=========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc'
-  Total number of paths / destination ports: 2 / 2
--------------------------------------------------------------------------
-Offset:              0.581ns (Levels of Logic = 0)
-  Source:            my_peripheral_sega_0/USER_LOGIC_I/sega_driver/mux_s (LATCH)
-  Destination:       mux_o (PAD)
-  Source Clock:      my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc falling
-
-  Data Path: my_peripheral_sega_0/USER_LOGIC_I/sega_driver/mux_s to mux_o
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     LD:G->Q               5   0.581   0.000  my_peripheral_sega_0/USER_LOGIC_I/sega_driver/mux_s (my_peripheral_sega_0/USER_LOGIC_I/sega_driver/mux_s)
-    ----------------------------------------
-    Total                      0.581ns (0.581ns logic, 0.000ns route)
-                                       (100.0% logic, 0.0% route)
+    Total                      2.336ns (0.775ns logic, 1.561ns route)
+                                       (33.2% logic, 66.8% route)
 
 =========================================================================
 
@@ -1384,33 +908,24 @@ Cross Clock Domains Report:
 --------------------------
 
 Clock to Setup on destination clock S_AXI_ACLK
---------------------------------------------------------+---------+---------+---------+---------+
-                                                        | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                                            |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
---------------------------------------------------------+---------+---------+---------+---------+
-S_AXI_ACLK                                              |    8.691|         |         |         |
-my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc|         |    2.957|         |         |
---------------------------------------------------------+---------+---------+---------+---------+
-
-Clock to Setup on destination clock my_peripheral_sega_0/USER_LOGIC_I/sega_driver/counter_tc
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-S_AXI_ACLK     |         |         |    2.222|         |
+S_AXI_ACLK     |    3.707|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 21.17 secs
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.57 secs
  
 --> 
 
-Total memory usage is 303488 kilobytes
+Total memory usage is 283840 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :   25 (   0 filtered)
-Number of infos    :    4 (   0 filtered)
+Number of warnings :   31 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
 
