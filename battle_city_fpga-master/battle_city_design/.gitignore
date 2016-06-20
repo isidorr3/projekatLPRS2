@@ -39,7 +39,6 @@ impact_impact.xwbt
 *.xml
 _ngo/
 *.bgn
-*.bit
 *.bld
 *.drc
 *.ngc
